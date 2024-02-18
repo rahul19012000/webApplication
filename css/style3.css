@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 100px;
+  /* Adjust width as needed */
+  height: 80px;
+}
+
+.container {
+  margin-top: 40px;
+  /* Adjust based on navbar height */
+  text-align: center;
+  height: 100vh;
+  /* Set the height of the container to 100% of the viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 col {
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img {
+  max-width: 100%;
+  height: 10%;
+  margin: 10px;
+}
+
+
+
+.row {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row1{
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.column {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+.column1 img{
+  padding: 10px;
+  text-align: center;
+  flex: 0 0 30%;
+  position: relative;
+  float: left;
+}
+
+.column img {
+  max-width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  /* Set the height of the image to 100% of the container height */
+  object-fit: cover;/
+ 
+}
+
+.column img:hover {
+  filter: grayscale(0%);
+}

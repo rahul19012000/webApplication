@@ -1,0 +1,191 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>First Application </title>
+        <link rel="stylesheet" href="C:\Users\rahul\OneDrive\Desktop\Project\application\css\style1.css">
+        <script src="C:\Users\rahul\OneDrive\Desktop\Project\application\js\script1.js"></script>
+    </head>
+    <body>
+    
+        <div class="wrapper">
+            <div class="nav prev">&#60;</div>
+          <div class="nav next">&#62;</div>
+          
+          <div class="cube">
+            <div class="front">front</div>
+                <div class="back">back</div>
+                <div class="left">left</div>
+                <div class="right">right</div>
+            </div>
+          
+          <label><input type="checkbox" checked="true" class="autoplay"/>Autoplay</label>
+        </div>
+        
+     
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Image Color on Hover</title>
+    <style>
+        /* Grayscale filter */
+        .gray {
+            filter: grayscale(100%);
+        }
+
+        /* No grayscale filter */
+        .color {
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body>
+    Image with grayscale filter applied -->
+    <!-- <img id="image" class="gray" src="C:\Users\rahul\OneDrive\Desktop\Project\application\img\img1.png" alt="Image" onmouseover="this.classList.remove('gray'); this.classList.add('color');" onmouseout="this.classList.remove('color'); this.classList.add('gray');" /> -->
+
+    <!-- Replace "your-image-url.jpg" with the actual URL of your image -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Fixed navbar styles */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #ffffff;
+            color: rgb(238, 230, 230);
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        /* Logo styles */
+        .logo {
+            display: inline-block;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Container styles */
+        .container {
+            margin-top: 50px; /* Space for the fixed navbar */
+            padding: 20px;
+        }
+
+        /* Row styles */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        /* Column styles */
+        .col {
+            flex: 0 0 48%; /* Two columns with a small gap */
+        }
+
+        /* Image styles */
+        .image {
+            width: 100%;
+            height: auto;
+            transition: filter 0.3s;
+        }
+
+        /* Grayscale filter on hover */
+        .image:hover {
+            filter: grayscale(100%);
+        }
+
+        /* Feedback form styles */
+        .feedback-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        /* Feedback form input styles */
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Feedback form button styles */
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+        .logo img{
+            height: 80px;
+            width: 90px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Fixed navbar with centered logo -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="C:\Users\rahul\OneDrive\Desktop\Project\application\img\Logo1.png"  alt="Logo" title="Web App">
+        </div>
+    </div>
+
+    <!-- Container with one row and two columns -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="image" src="C:\Users\rahul\OneDrive\Desktop\Project\application\img\img1.png" alt="Image 1" />
+            </div>
+            <div class="col">
+                <img class="image" src="C:\Users\rahul\OneDrive\Desktop\Project\application\img\img1.png" alt="Image 2" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Container with one row and one column for image and feedback form -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="image" src="C:\Users\rahul\OneDrive\Desktop\Project\application\img\img1.png" alt="Image 3" />
+            </div>
+        
+            <div class="col">
+                <div class="feedback-form">
+                    <h2>Feedback Form</h2>
+                    <form>
+                        <input type="text" placeholder="Name" required /><br>
+                        <input type="text" placeholder="Email" required /><br>
+                        <textarea placeholder="Feedback" required></textarea><br>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
